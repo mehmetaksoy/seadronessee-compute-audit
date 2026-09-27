@@ -1,0 +1,57 @@
+{
+  "status": "interim research snapshot",
+  "assets": [
+    {
+      "asset": "scientific-source.zip",
+      "bytes": 783647,
+      "sha256": "7489848d55a049201ac8cc27db3363650f04fdca7829a92e6902efbe3e54c443",
+      "inner_manifest_sha256": "84b89d21ce2b704c35f079a0b6db3e81bf77a17fe3e2e129c88c83a0a2175e23",
+      "original_manifest_sha256": "0434fa78ccd894c4afffe654a0f537a862aab979a915904b6a4db4897749a9f7",
+      "inner_files": 168,
+      "archive_files": 181,
+      "all_scientific_source_bytes_unchanged": true,
+      "all_original_members_byte_identical": false,
+      "notice_index_corrected": true,
+      "transport_readback_verified": true
+    },
+    {
+      "asset": "data-reconstruction.zip",
+      "bytes": 1111313,
+      "sha256": "55110c9efa1239a0b72039d061616c2b635c8e45c4e2fed7da2342fdc4334a77",
+      "inner_manifest_sha256": "6e8c6291c1a5b1a3eb74d05485668532d526febdb56fd85e0df0ba12abe7bd0a",
+      "original_manifest_sha256": "6e8c6291c1a5b1a3eb74d05485668532d526febdb56fd85e0df0ba12abe7bd0a",
+      "inner_files": 7,
+      "archive_files": 9,
+      "all_scientific_source_bytes_unchanged": true,
+      "all_original_members_byte_identical": true,
+      "notice_index_corrected": false,
+      "transport_readback_verified": true
+    },
+    {
+      "asset": "coco-results.zip",
+      "bytes": 415265310,
+      "sha256": "dd50521f5bc31127bd44ffaa1b2c568e50795ec96779ed3ef0a92c261bd1a3c2",
+      "inner_manifest_sha256": "5f79d3d9ba4b72f7954483686c3c21bd9f24e9b5aed63a3eaba21c50598b567d",
+      "original_manifest_sha256": "5f79d3d9ba4b72f7954483686c3c21bd9f24e9b5aed63a3eaba21c50598b567d",
+      "inner_files": 305,
+      "archive_files": 307,
+      "all_scientific_source_bytes_unchanged": true,
+      "all_original_members_byte_identical": true,
+      "notice_index_corrected": false,
+      "transport_readback_verified": true
+    },
+    {
+      "asset": "mru-decisions.zip",
+      "bytes": 88187879,
+      "sha256": "f7b9ea9b3c98234ec109f9368862bef64ff6b6dfe83665f8550541d0f258617d",
+      "inner_manifest_sha256": "b920a32462a3ed03d42178420fc312c6175100e53d8e1ed6edf4ef0a87fb13b0",
+      "original_manifest_sha256": "b920a32462a3ed03d42178420fc312c6175100e53d8e1ed6edf4ef0a87fb13b0",
+      "inner_files": 5157,
+      "archive_files": 5159,
+      "all_scientific_source_bytes_unchanged": true,
+      "all_original_members_byte_identical": true,
+      "notice_index_corrected": false,
+      "transport_readback_verified": true
+    }
+  ]
+}

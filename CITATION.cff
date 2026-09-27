@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the exact research-companion revision used; also cite the original dataset and methods."
+type: software
+title: "SeaDronesSee Compute Audit: Open Research Companion"
+authors:
+  - family-names: AKSOY
+    given-names: Mehmet
+    orcid: "https://orcid.org/0009-0007-0250-8384"
+repository-code: "https://github.com/mehmetaksoy/seadronessee-compute-audit"
+version: "2026.09.27-interim"
+date-released: "2026-09-27"
+license: AGPL-3.0-only

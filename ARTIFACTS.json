@@ -1,0 +1,176 @@
+{
+  "author": "Mehmet AKSOY",
+  "orcid": "0009-0007-0250-8384",
+  "as_of": "2026-09-27T11:28:48.874063+03:00",
+  "status": "Experimental study; EVREN visibility opened, complete archival release pending",
+  "models": [
+    {
+      "run_id": "S01",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/s01-seadronessee-v2-yolo11n-1024-seed42",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "S01-best.onnx",
+        "bytes": 10425293,
+        "sha256": "b55c8af2f9e10d871fe100b5f2fa4652193e534703900758c47d9c33537feae6",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "S01-best.pt",
+        "bytes": 5515475,
+        "sha256": "022460d5900da2d2281aa56cc334fc85cd5a202952e41e9e06d43f4aaab6db76",
+        "loaded_or_executed": false
+      },
+      "scope": "Retained study inference artifact; worker provenance and PyTorch/ONNX parity not inferred"
+    },
+    {
+      "run_id": "S02",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/s02-seadronessee-v2-yolo26n-1024-seed42",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "S02-best.onnx",
+        "bytes": 10511692,
+        "sha256": "96bc73fbbd66fa6385c728b5344a19ee75f3e69742e7a47e1d5104e9f80a2502",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "S02-best.pt",
+        "bytes": 5590289,
+        "sha256": "919dc7adec1d53dceb0fa2e6f5a88209417337465d02e85828b8049d3a2b783b",
+        "loaded_or_executed": false
+      },
+      "scope": "Supplemental artifact diagnostic; native YOLO26 identity not accepted"
+    },
+    {
+      "run_id": "S06",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/s06-seadronessee-v2-yolo11n-1024-seed17",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "S06-best.onnx",
+        "bytes": 10425293,
+        "sha256": "85ea54457191906df26b32f1945cfd5ea4f9d6a6b714a3ccd4b204e41f44690a",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "S06-best.pt",
+        "bytes": 5516051,
+        "sha256": "1d0ce4eb68c486372a7677aee3ce99fdbdda29dcdd6905289f7da22c4662b0bd",
+        "loaded_or_executed": false
+      },
+      "scope": "Retained study inference artifact; worker provenance and PyTorch/ONNX parity not inferred"
+    },
+    {
+      "run_id": "S07",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/s07-seadronessee-v2-yolo11n-1024-seed123",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "S07-best.onnx",
+        "bytes": 10425293,
+        "sha256": "ce3c8128b4bcd0545607693e04b778c1e37b47d64207a73f369d919afba8e34c",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "S07-best.pt",
+        "bytes": 5511763,
+        "sha256": "f09f98c8bfcf8d7d4082569986d47e6ccd66c61348d0b337707caf66f0b21526",
+        "loaded_or_executed": false
+      },
+      "scope": "Retained study inference artifact; worker provenance and PyTorch/ONNX parity not inferred"
+    },
+    {
+      "run_id": "SV01",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/sv01-seadronessee-v2-video-disjoint-yolo11n-1024-seed42",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "SV01-best.onnx",
+        "bytes": 10425293,
+        "sha256": "05a4be96cfe083a3957abd77af2e19e62b437b6d7f40d22967ceadce3465aba8",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "SV01-best.pt",
+        "bytes": 5500243,
+        "sha256": "d30a91514ba841bc1ea39696ae56c69d6057dcc4a831e71e778726387ab348bd",
+        "loaded_or_executed": false
+      },
+      "scope": "Fixed-export source-video sensitivity; UI/checkpoint epoch discrepancy retained"
+    },
+    {
+      "run_id": "SV02",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/sv02-seadronessee-v2-video-disjoint-yolo11n-1024-seed17",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "SV02-best.onnx",
+        "bytes": 10425293,
+        "sha256": "f44a18389a53c90c04f9c59d8d0739aeedefe16114da011992787165e9021386",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "SV02-best.pt",
+        "bytes": 5499411,
+        "sha256": "162bfd6fa4e2967fc32c84059faefff537e09501ac8b8cd9f9f22d1e28c9ee56",
+        "loaded_or_executed": false
+      },
+      "scope": "Fixed-export source-video sensitivity; UI/checkpoint epoch discrepancy retained"
+    },
+    {
+      "run_id": "SV03",
+      "url": "https://evren.ssyz.org.tr/models/uda23e07a83e0/sv03-seadronessee-v2-video-disjoint-yolo11n-1024-seed123",
+      "visibility_after": "public within EVREN",
+      "onnx": {
+        "filename": "SV03-best.onnx",
+        "bytes": 10425293,
+        "sha256": "0fcadce3ca091e941b943e933f035eab6d45de12c2f7bcc7fa8c3f715a8f4f91",
+        "declared_license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "declared_version": "8.3.0",
+        "producer_name": "pytorch",
+        "producer_version": "2.3.0"
+      },
+      "checkpoint": {
+        "filename": "SV03-best.pt",
+        "bytes": 5497747,
+        "sha256": "06e850223d1bc578444bf5c22145a0a945b9e859ded3ff77747283c02a9d8ba0",
+        "loaded_or_executed": false
+      },
+      "scope": "Retained study inference artifact; worker provenance and PyTorch/ONNX parity not inferred"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "SeaDronesSee v2 — Official Train-Val",
+      "url": "https://evren.ssyz.org.tr/datasets/uda23e07a83e0/seadronessee-v2-official-train-val",
+      "version": "v1-official-trainval-10477",
+      "images": 10477,
+      "annotations": 67390,
+      "description_updated": false
+    },
+    {
+      "name": "SeaDronesSee v2 — Source-video-disjoint sensitivity",
+      "url": "https://evren.ssyz.org.tr/datasets/uda23e07a83e0/seadronessee-v2-source-video-disjoint-sensitivity",
+      "version": "v1-source-video-disjoint-8664",
+      "images": 8664,
+      "annotations": 60235,
+      "description_updated": true
+    }
+  ],
+  "access_note": "The S01 direct model URL redirected a signed-out browser to EVREN sign-in. Platform-public visibility is verified; anonymous download is not.",
+  "licensing_note": "Model licences and producer versions are artifact metadata declarations; exact worker/source and initialization provenance remain incomplete. Upstream SeaDronesSee declares CC0-1.0 for data.",
+  "remote_bytes_redownloaded": false
+}
