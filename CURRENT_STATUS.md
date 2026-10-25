@@ -1,4 +1,35 @@
-# Current status — 27 September 2026
+# Current status — 26 October 2026
+
+## Published preprint
+
+Mehmet AKSOY's **Budget, Operating Point and Prediction Fusion in Maritime
+Small-Object Detection: A Controlled SeaDronesSee v2 Study Using EVREN** was
+published on Zenodo on 25 October 2026 as version 1.0.0.
+
+**Publication type: preprint. It has not been peer reviewed.**
+
+- DOI: [10.5281/zenodo.23649094](https://doi.org/10.5281/zenodo.23649094)
+- [Article and supporting files on Zenodo](https://zenodo.org/records/23649094)
+
+The published version includes the completed YOLO comparisons and **six of
+fourteen planned official-test results**. Its evidence cutoff is 25 October
+2026, 21:54 TRT (UTC+3). D-FINE accuracy results and the remaining eight official
+results are not included. Further experiments are currently paused; this
+publication update does not report any new experiment.
+
+The existing [27 September code/replay snapshot](https://github.com/mehmetaksoy/seadronessee-compute-audit/releases/tag/research-snapshot-2026-09-27)
+and its hashes remain unchanged. It contains the earlier manuscript and three
+S01 official results. The root `official-test-results.csv` belongs to that
+snapshot; the updated six-result table is available in the Zenodo deposit.
+The later D-FINE implementation is not part of that public code snapshot.
+
+The following dated notes are retained as historical records. Their statements
+about pending publication and only three official results describe the state
+on 27 September, not the status of the published preprint.
+
+---
+
+## Historical status — 27 September 2026
 
 
 This is an interim open research companion, not the final manuscript submission.
