@@ -5,10 +5,33 @@ fusion in maritime small-object detection.**
 
 Mehmet AKSOY · [ORCID](https://orcid.org/0009-0007-0250-8384)
 
-**Status: interim research snapshot, 27 September 2026.** The study and final
-academic English article are in progress. D-FINE evaluation and part of the
-predeclared independent test remain pending. This repository claims neither a
-new detector nor state-of-the-art performance. See [current status](CURRENT_STATUS.md).
+**Status: version 1.0.0 of the research preprint was published on 25 October 2026.**
+**This is a preprint and has not been peer reviewed.** The existing
+[27 September research snapshot](https://github.com/mehmetaksoy/seadronessee-compute-audit/releases/tag/research-snapshot-2026-09-27)
+remains a dated code and replay release; its files have not been replaced by this
+publication update. See [current status](CURRENT_STATUS.md) for the scope.
+
+## Preprint
+
+**Budget, Operating Point and Prediction Fusion in Maritime Small-Object
+Detection: A Controlled SeaDronesSee v2 Study Using EVREN**
+
+Mehmet AKSOY. Zenodo, version 1.0.0, 25 October 2026. **Preprint; not peer reviewed.**
+
+- **DOI:** [10.5281/zenodo.23649094](https://doi.org/10.5281/zenodo.23649094)
+- **Article and supporting files:** [Zenodo record](https://zenodo.org/records/23649094)
+  (English PDF, six-result official-test table and README).
+
+The preprint reports the completed YOLO comparisons and **six of fourteen
+planned official-test results**, with an evidence cutoff of 25 October 2026,
+21:54 TRT (UTC+3). D-FINE accuracy results and the remaining eight official-test
+results are not included. Further experiments are currently paused. This study
+claims neither a new detector nor state-of-the-art performance.
+
+The September code/replay snapshot documents the earlier manuscript, 81
+development condition/export cells and three S01 official-test results. It does
+not contain the later D-FINE implementation. Use the Zenodo record for the
+published article and its six-result table.
 
 ## Research questions
 
@@ -29,7 +52,8 @@ the official validation split, 24 in the post-hoc source-video sensitivity study
 15 for the MRU selection/fusion adaptation and 18 for coordinate sensitivity.
 These are related controlled conditions, not 81 independent replications.
 
-The first three official SeaDronesSee Object Detection v2 test submissions are:
+The three S01 official SeaDronesSee Object Detection v2 test results retained
+in the September snapshot are:
 
 | Fixed S01 condition | Server ID | AP50:95 | AP50 | Local mean time (ms/image) |
 |---|---:|---:|---:|---:|
@@ -45,7 +69,9 @@ small-object test recall, confidence intervals or across-seed significance.
 
 ![S01 official test accuracy and local processing cost](s01_test_accuracy_cost.png)
 
-Full values: [official-test-results.csv](official-test-results.csv).
+September snapshot values: [official-test-results.csv](official-test-results.csv).
+The [Zenodo preprint deposit](https://zenodo.org/records/23649094) contains the
+updated table with all six official results included in version 1.0.0.
 Task: [MaCVi SeaDronesSee Object Detection v2](https://www.macvi.org/dashboard/airborne/seadronessee/object-detection-v2).
 
 ## Download and reproduce
@@ -123,6 +149,23 @@ prose, figures and results: CC BY 4.0. Source-data and allocation fields: CC0-1.
 Read [PUBLICATION.md](PUBLICATION.md) for component scope and retained limitations.
 The source archive preserves third-party licence notices and provenance.
 
-[CITATION.cff](CITATION.cff) identifies this research companion. Cite the exact
-revision used and the original dataset/method papers as appropriate. No DOI or
-peer-reviewed publication is claimed for this interim SeaDronesSee release.
+[CITATION.cff](CITATION.cff) identifies the software research companion. Cite the
+exact code/replay revision used and the original dataset/method papers as
+appropriate. The Zenodo DOI above identifies the **preprint**, not the software
+snapshot and not a peer-reviewed journal or conference publication.
+
+To cite the preprint:
+
+```bibtex
+@misc{aksoy2026seadronessee,
+  author    = {Aksoy, Mehmet},
+  title     = {Budget, Operating Point and Prediction Fusion in Maritime Small-Object Detection: A Controlled {SeaDronesSee} v2 Study Using {EVREN}},
+  year      = {2026},
+  month     = oct,
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23649094},
+  url       = {https://doi.org/10.5281/zenodo.23649094},
+  version   = {1.0.0},
+  note      = {Preprint; not peer reviewed}
+}
+```
